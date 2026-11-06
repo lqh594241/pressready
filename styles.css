@@ -20,3 +20,12 @@
 .selected-file{min-width:0;max-width:100%;overflow-wrap:anywhere;color:var(--muted);font-size:12px}
 .dropzone:hover .upload-button{filter:brightness(1.08)}
 .dropzone:focus-within .upload-button{outline:3px solid var(--accent);outline-offset:4px}
+
+/* Pressready ads: full-width document flow, with responsive creative scaling. */
+.ad-banner{position:relative;width:100%;min-height:46px;padding:8px 45px 8px 8px;background:var(--bg);border-bottom:1px solid var(--line);isolation:isolate}
+.ad-banner[data-empty="true"]{height:0;min-height:0;padding-block:0;border:0;overflow:hidden;visibility:hidden;pointer-events:none}
+.ad-banner.is-dismissed{display:none}
+.banner-viewport{position:relative;width:100%;height:0;overflow:hidden}
+.ad-banner #banner-creative{position:absolute;top:0;left:50%;display:flow-root;width:max-content;max-width:none;min-height:0;margin:0;transform-origin:top center;transform:translateX(-50%) scale(var(--ad-scale,1))}
+.ad-banner #banner-creative iframe,.ad-banner #banner-creative img{max-width:none}
+.ad-banner>button{position:absolute;right:7px;top:7px;width:30px;height:30px;border:1px solid var(--line);border-radius:50%;background:var(--surface);color:var(--ink);font-size:21px}
