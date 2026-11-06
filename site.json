@@ -1,0 +1,12 @@
+{
+  "slug": "pressready",
+  "brand": "Pressready",
+  "kicker": "Small tools for thoughtful makers.",
+  "title": "MAKE IT<br><em>PRINT RIGHT.</em>",
+  "desc": "Check your print resolution, mirror your artwork and tile a large design across ordinary pages. No uploads, no account.",
+  "accent": "#e9512d",
+  "dark": "#222924",
+  "kind": "print",
+  "port": "4179",
+  "design": "industrial prepress / condensed type / orange"
+}
